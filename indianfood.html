@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Indian Food</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="common/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="common/vendor/aos/aos.css" rel="stylesheet" />
+
+
+    <link href="common/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="common/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="common/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="common/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="Indianfood/css/style.css" rel="stylesheet" />
+
+    <!--Inheritance from homepage-->
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="homepage/lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="homepage/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="homepage/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="homepage/css/style.css" rel="stylesheet" />
+    <link href="homepage/css/cookies.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid position-relative p-0">
+        <nav
+        class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="text-primary m-0">
+            <i class="fas fa-fire"></i>Hell<span>Kitchen</span>
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <div class="nav-item dropdown">
+                <a href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown">
+                Foods
+                </a>
+              <div class="dropdown-menu m-0">
+                <a href="chinesefood.html" class="dropdown-item">Chinese Food</a>
+                <a href="malayfood.html" class="dropdown-item">Malay Food</a>
+                <a href="indianfood.html" class="dropdown-item">Indian Food</a>
+              </div>
+            </div>
+            <a href="restaurantRecommendations.html" class="nav-item nav-link active">Recommendations</a>
+          </div>
+          <a
+            href="contactus.html"
+            class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+            >Contact Us</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- ======= First Section ======= -->
+    <section id="hero">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide 1 -->
+                <div class="carousel-item active"
+                    style="background-image: url(Indianfood/img/slide/IndianFoodBackground.jpg)">
+                    <div class="carousel-container">
+                        <div class="carousel-content animate__animated animate__fadeInUp">
+                            <h2>Exploring the World of IndianCuisine</h2>
+                            <p style="text-align: justify;">
+                                Welcome to the vibrant and diverse world of Indian cuisine, where every dish tells a
+                                story of rich history, cultural heritage, and culinary artistry.
+                                Indian food is a tapestry of flavors, colors, and aromas, shaped by centuries of
+                                tradition and regional diversity.
+                                From the spicy curries of the South to the hearty tandoori dishes of the North, Indian
+                                cuisine offers a delightful journey through a land of countless spices and ingredients.
+                                Whether you're craving the fiery heat of chili peppers or the comforting taste of
+                                buttery naan, this page will guide you through the essentials of Indian cooking,
+                                introducing you to iconic dishes, cooking techniques, and the cultural significance
+                                behind each meal. Join us as we explore the flavors that make Indian cuisine one of the
+                                most beloved and
+                                celebrated culinary traditions in the world.
+                            </p>
+                            <div class="text-center">
+                                <a href="#intro-indianFood" class="btn-get-started">Explore More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
+
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        </div>
+    </section>
+    <!-- Intro Hero -->
+
+    <main id="main">
+        <!-- ======= malay food intro Section ======= -->
+        <section id="intro-indianFood" class="intro-indianFood">
+            <div class="container" data-aos="fade-up">
+                <div class="row content">
+                    <div class="col-lg-6 text-center" data-aos="fade-right">
+                        <h2>Introduction</h2>
+                        <h2>To</h2>
+                        <h4>Indian</h4>
+                        <h5>Cuisine</h5>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                        <p style="text-align: justify;">
+                            Welcome to our culinary journey through the vibrant flavors of Indian cuisine! Indian food
+                            is a tantalizing fusion of rich spices, aromatic herbs, and diverse ingredients that reflect
+                            the cultural diversity and heritage of India. In this gastronomic adventure, we invite you
+                            to explore some of the most iconic dishes that define Indian cuisine.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i> Chapati</li>
+                            <li><i class="ri-check-double-line"></i> Butternut Squash Curry</li>
+                            <li><i class="ri-check-double-line"></i> Masala Chai</li>
+                            <li><i class="ri-check-double-line"></i> Palak Chicken</li>
+                            <li><i class="ri-check-double-line"></i> Indian-spiced Chicken Traybake</li>
+                            <li><i class="ri-check-double-line"></i> Indian Coconut Chicken Curry</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End malay food Intro Section -->
+
+        <!-- ======= Foods Section ======= -->
+        <h1 style="text-align:center;" data-aos="fade-up">Indian Cuisine</h1>
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/Chapati.jpeg" class="img-fluid" alt="Chapati Image" />
+                            </div>
+                            <h4>
+                                <a href="indianFoodRecipe1.html">Chapati</a>
+                            </h4>
+                            <p style="text-align: justify;">
+                                Chapati is a traditional Indian flatbread made from whole wheat flour, water, and salt.
+                                Rolled into thin discs and cooked on a hot griddle, it is a staple in Indian households,
+                                often served with curries, vegetables, and dals. Its simplicity and versatility make it
+                                a beloved part of Indian cuisine.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/Butternut_Squash_Curry.jpg" class="img-fluid"
+                                    alt="Image" />
+                            </div>
+                            <h4>
+                                <a href="indianFoodRecipe2.html">Butternut Squash Curry</a>
+                            </h4>
+                            <p style="text-align: justify;">
+
+                                This simple curry starts with onion, garlic, and ginger as the aromatic base, followed
+                                by curry powder, cumin, diced tomatoes, and water. The butternut squash is simmered
+                                until tender, then coconut milk adds a creamy texture. Fresh spinach is added at the end
+                                for color and texture. Easy, vibrant, and delicious!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/Masala_Chai.png" class="img-fluid" alt="Image" />
+                            </div>
+                            <h4>
+                                <a
+                                    href="indianFoodRecipe3.html">Masala
+                                    Chai</a>
+                            </h4>
+                            <p style="text-align: justify;">
+                                Masala chai is a creamy, spiced tea that’s most popular in India but is increasingly
+                                enjoyed around the world. The primary difference between chai and masala chai is that
+                                masala chai includes spices, while chai is simply tea and milk.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/Palak-Chicken.jpg" class="img-fluid" alt="Image" />
+                            </div>
+                            <h4><a href="indianFoodRecipe4.html">Palak Chicken</a></h4>
+                            <p style="text-align: justify;">
+                                Palak chicken is a popular Punjabi chicken dish renowned for its rich and aromatic
+                                flavors. The dish is incredibly fragrant, thanks to the use of freshly ground spices,
+                                and it is both healthy and nutritious due to a robust spinach sauce.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/Indian-spiced-Chicken-Traybake.jpg" class="img-fluid"
+                                    alt="Image" />
+                            </div>
+                            <h4>
+                                <a href="indianFoodRecipe5.html">Indian-spiced Chicken Traybake</a>
+                            </h4>
+                            <p style="text-align: justify;">
+                                Indian-spiced Chicken Traybake is a flavorful and easy-to-make dish where chicken is
+                                seasoned with aromatic Indian spices, then roasted with vegetables in a single tray.
+                                This recipe combines convenience with bold, vibrant flavors for a satisfying meal.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <img src="Indianfood/img/slide/CoconutChickenCurry.png" class="img-fluid" alt="Image" />
+                            </div>
+                            <h4><a href="indianFoodRecipe6.html">Indian Coconut Chicken Curry</a></h4>
+                            <p style="text-align: justify;">
+                                Flavorful and easy south indian style Coconut Chicken Curry made with boneless chicken
+                                thighs, ginger, garlic, aromatic spices and creamy coconut milk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        </div>
+        </section>
+        <!-- End foods Section -->
+
+        <!-- ======= website Section ======= -->
+        <section id="clients" class="clients">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Food ordering or Website</h2>
+                </div>
+
+                <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://www.foodpanda.my/">
+                                <img src="Indianfood/img/clients/foodpanda.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://food.grab.com/my/en/">
+                                <img src="Indianfood/img/clients/grabfood.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://www.eatdrinkkl.com/">
+                                <img src="Indianfood/img/clients/edkl.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://jackiem.com.au/blog/">
+                                <img src="Indianfood/img/clients/jackiem.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://www.kenhuntfood.com/">
+                                <img src="Indianfood/img/clients/kens.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://www.malaysianfoodie.com/?utm_source=feedspot">
+                                <img src="Indianfood/img/clients/foodie.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://penangfoodie.com/?utm_source=feedspot">
+                                <img src="Indianfood/img/clients/penang.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <a href="https://www.malaysianflavours.com/?utm_source=feedspot">
+                                <img src="Indianfood/img/clients/flavours.png" class="img-fluid" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End website Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="text-white mb-4">
+                  <i class="fas fa-fire"></i>HellKitchen
+                </h4>
+                <p>
+                  Bringing people together with food.
+                </p>
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-share fa-2x text-white me-2"></i>
+                  <a
+                    class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                    href="http://facebook.malaysia.travel/"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                    href="http://twitter.malaysia.travel/"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                    href="http://instagram.malaysia.travel/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                    href="http://youtube.malaysia.travel/"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-white">Food</h4>
+                <a href="chinesefood.html"
+                  ><i class="fas fa-angle-right me-2"></i> Chinese Food</a
+                >
+                <a href="malayfood.html"
+                  ><i class="fas fa-angle-right me-2"></i> Malay Food</a
+                >
+                <a href="indianfood.html"
+                  ><i class="fas fa-angle-right me-2"></i> Indian Food</a
+                >
+                <a href="restaurantRecommendations.html"
+                  ><i class="fas fa-angle-right me-2"></i> Recommended restaurants</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-white">Contact Info</h4>
+                  <a href="contactus.html" class="btn btn-primary rounded-pill text-white px-4 py-2 flex-wrap flex-sm-shrink-0 me-2">
+                      Contact us
+                  </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                <h4 class="mb-4 text-white">Subscription Service</h4>
+                <a href="subscribe.html"
+                  class="btn btn-primary rounded-pill text-white px-4 py-2 flex-wrap flex-sm-shrink-0 me-2">Subscribe
+                  Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Footer End -->
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+              <span class="text-black"
+                ><a href="#"
+                  ><i class="fas fa-copyright text-dark me-2"></i>HellKitchen</a
+                >, All right reserved.</span
+              >
+            </div>
+            <div class="col-md-6 text-center text-md-end text-black">
+              Designed By Sum Yu
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright End -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="common/vendor/aos/aos.js"></script>
+    <script src="common/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="common/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="common/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="common/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="common/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="Indianfood/js/main.js"></script>
+
+    <!--Inheride from homepage-->
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="homepage/lib/wow/wow.min.js"></script>
+    <script src="homepage/lib/easing/easing.min.js"></script>
+    <script src="homepage/lib/waypoints/waypoints.min.js"></script>
+    <script src="homepage/lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="homepage/js/main.js"></script>
+</body>
+
+</html>
